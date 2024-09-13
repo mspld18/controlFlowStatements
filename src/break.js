@@ -4,5 +4,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+    if (i < 50) break;
+        console.log(numbers[i])
+
 }
